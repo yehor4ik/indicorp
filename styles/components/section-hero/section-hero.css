@@ -1,0 +1,118 @@
+.section-hero {
+    padding-top: 40px;
+    position: relative;
+}
+
+.first {
+    display: inline-block;
+}
+
+.second {
+    display: none;
+}
+
+.section-hero-container {
+    max-width: 986px;
+    margin: 0 auto;
+}
+
+.section-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.section-background img {
+    height: 100%;
+}
+
+.section-hero .main-content {
+    max-width: 509px;
+    margin-bottom: 90px;
+}
+
+.title-primary {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 35px;
+}
+
+.hero-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    max-width: 376px;
+    margin-bottom: 35px;
+}
+
+.section-hero .link-wrapper-wrapper {
+    display: inline-block;
+    padding: 15px 36px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #00A0C1;
+    color: #00A0C1;
+    border-radius: 37px;
+    font-weight: bold;
+}
+
+.section-hero .link-wrapper-wrapper:hover {
+    text-decoration: underline;
+}
+
+.section-hero .active {
+    border: 1px solid #FFA62B;
+    background-color: #FFA62B;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, 18px);
+}
+
+.icon-hero {
+    max-width: 48px;
+    fill: #00A0C1;
+    max-height: 41px;
+    margin-bottom: 13px;
+}
+
+.card-hero {
+    max-width: 340px;
+    background-color: #fff;
+    padding: 39px  20px 35px 40px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+
+.card-hero + .card-hero {
+    margin-left: 15px;
+}
+
+.title-hero-icon {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.description-hero {
+    max-width: 220px;
+}
+
+.card-hero:hover .title-hero-icon,.card-hero:hover .description-hero, .card-hero:hover .icon-hero, .card-hero:hover {
+    fill: #fff;
+    color: #fff;
+    background-color: #00A0C1;
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 1150px){
+    .section-contact {
+        padding-bottom: 25px;
+    }
+
+    .grid-contact {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .grid-contact-item {
+        width: 33.33%;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .section-contact-us {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .section-contact-us .description {
+        margin-bottom: 30px;
+    }
+}

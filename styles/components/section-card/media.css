@@ -1,0 +1,27 @@
+@media screen and (max-width: 1150px){
+
+    .section-card-body {
+        max-width: 511px;
+    }
+
+    div.section-media-grid-1150 {
+        justify-content: center;
+    }
+
+    .media-width-1150 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .media-card-section-card-1150 {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .padding-card-1000 {
+        padding-top: 0;
+    }
+}

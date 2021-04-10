@@ -1,0 +1,82 @@
+.section-cooperation-header {
+    background-color: #FAFAFA;
+    padding: 71px 0 158px 0;
+}
+
+.section-cooperation-footer {
+    background-color: #252B42;
+    min-height: 77px;
+}
+
+.section-cooperatin-container {
+    max-width: 986px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.grid-cooperatin {
+    margin: 0 -40px;
+    align-items: center;
+}
+
+.grid-item-cooperation {
+    width: 16.66%;
+    padding: 0 40px;
+}
+
+.mail-form {
+    background-color: #16697A;
+    padding: 30px 50px;
+    position: absolute;
+    width: 100%;
+    top: -80px;
+}
+
+.grid-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #fff;
+    max-width: 270px;
+}
+
+.form-wrapper {
+    font-size: 0;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.form-wrapper input {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #F9F9F9;
+    padding: 15px 23px;
+    border-right: 1px solid #E6E6E6;
+    color: #757575;
+}
+
+.form-wrapper button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #FFA62B;
+    padding: 15px 23px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.form-wrapper button:hover {
+    background-color: rgba(0,0,0,0);
+}

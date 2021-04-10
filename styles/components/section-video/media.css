@@ -1,0 +1,19 @@
+@media screen and (max-width: 900px) {
+    .section-video {
+        max-width: 511px;
+        margin: 0 auto;
+    }
+
+    .grid-video {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .grid-video-item {
+        width: 100% ;
+    }
+
+    .grid-video-item:first-child {
+        padding-bottom: 70px;
+    } 
+}

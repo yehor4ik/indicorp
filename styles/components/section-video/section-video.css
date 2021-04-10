@@ -1,0 +1,125 @@
+.section-video-wrapper {
+    background-color: #fff;
+}
+
+.section-video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.section-video-head {
+    text-align: center;
+    max-width: 511px;
+    margin-bottom: 100px;
+}
+
+.section-video .section-video-head .title-secondary {
+    margin-bottom: 15px;
+}
+
+.section-video-body {
+    width: 100%;
+}
+
+.grid-video {
+    display: flex;
+}
+
+.grid-video-item {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    height: 400px;
+}
+
+.video-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.video-background img {
+    height: 100%;
+}
+
+.video-foreground {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-wtapper {
+    background-color: #00A0C1;
+    border: 1px solid #00A0C1;
+    border-radius: 50%;
+    padding: 35px;
+    z-index: 11;
+    position: relative;
+}
+
+.svg-wtapper img {
+    max-width: 24px;
+    max-height: 28px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 27px;
+    top: 22px;
+}
+
+.svg-wtapper:hover {
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+.grid-video-item .content-wrapper {
+    max-width: 335px;
+}
+
+.grid-video-item .title-secondary {
+    margin-bottom: 10px;
+}
+
+.grid-video-item .header-wrapper {
+    margin-bottom: 50px;
+}
+
+.list-item-video {
+    display: flex;
+}
+
+.icon-text-wtappe p {
+    font-weight: bold;
+
+}
+
+.grid-video .icon-text-wtapper .title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.list-item-video img {
+    min-height: 25px;
+    max-height: 29px;
+    min-width: 29px;
+    max-width: 31px;
+    margin-right: 22px;
+}
+
+.icon-text-wtapper {
+    margin-bottom: 30px;
+}

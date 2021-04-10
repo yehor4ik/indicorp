@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px) {
+    .section-cooperation-header {
+        padding: 0;
+    }
+
+    .grid-item-cooperation {
+        width: 33.33%;
+        padding: 30px 60px;
+    }
+    
+    .section-cooperation-footer {
+        background-color: #16697A;
+    }
+    
+    .mail-form {
+        position: static;
+    }
+
+    .grid-form {
+        flex-direction: column;
+    }
+
+    .form-title {
+        max-width: 421px;
+        margin-bottom: 20px;
+    }
+}
