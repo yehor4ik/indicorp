@@ -89,6 +89,7 @@ img {
 .title-secondary {
     font-weight: bold;
     font-size: 40px;
+    line-height: 57px;
     letter-spacing: 0.2px;
     font-style: normal;
     font-weight: bold;
@@ -107,9 +108,13 @@ img {
     color: #737373;
 }
 
+.hide {
+    display: none !important;
+}
+
 @media screen and (max-width: 1150px){
-    .container {
-        width: 90%;
+    div.container {
+        width: 85%;
         margin: 0 auto;
     }
  }

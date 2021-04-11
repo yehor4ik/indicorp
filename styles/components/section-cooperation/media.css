@@ -25,3 +25,27 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .section-cooperation-header {
+        padding: 40px;
+    }
+
+    .grid-item-cooperation {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .section-cooperation-header {
+        /* padding: 90px; */
+    }
+
+    .grid-item-cooperation {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 140px;
+    }
+}

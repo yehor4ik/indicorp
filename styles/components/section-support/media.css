@@ -29,3 +29,15 @@
         margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .section-support {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section-support {
+        padding: 0;
+    }
+}

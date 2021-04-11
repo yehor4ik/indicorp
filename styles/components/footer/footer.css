@@ -24,12 +24,13 @@
     text-decoration: none;
     background-color: #FFA62B;
     border: 1px solid #FFA62B;
+    border-radius: 5px;
     color: #fff;
 }
 
 .section-contact-us-wrapper .link:hover {
     border: 1px solid #FFA62B;
-    background-color: #fff;
+    background-color: #FAFAFA;
     color: #FFA62B;
 }
 

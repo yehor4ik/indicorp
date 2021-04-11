@@ -24,3 +24,20 @@
         margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width: 650px){
+    .grid-contact-item {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .section-last-information {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section-last-information .description{
+        margin-bottom: 30px;
+    }
+}

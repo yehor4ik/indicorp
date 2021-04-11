@@ -16,4 +16,14 @@
     .grid-video-item:first-child {
         padding-bottom: 70px;
     } 
+
+    .grid-video-item .content-wrapper {
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .title-secondary, .form-title {
+        text-align: center;
+    }
 }

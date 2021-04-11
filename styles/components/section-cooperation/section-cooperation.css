@@ -24,6 +24,10 @@
     padding: 0 40px;
 }
 
+.grid-item-cooperation a{
+    display: inline-block;
+}
+
 .mail-form {
     background-color: #16697A;
     padding: 30px 50px;

@@ -25,3 +25,12 @@
         padding-top: 0;
     }
 }
+
+@media screen and (max-width: 500px){
+
+    .media-width-1150 {
+        width: 100%;
+        max-width: 230px;
+    }
+
+}
